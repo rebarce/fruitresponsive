@@ -24,6 +24,7 @@ p,
 a {
   font-family: "Poppins", sans-serif;
 }
+
 .bg-white {
   background-color: white;
   padding: 1.2rem;
@@ -86,6 +87,10 @@ ul li:hover {
   cursor: pointer;
 }
 
+#hamburger-icon li a {
+  color: white;
+}
+
 #hamburger-icon div {
   width: 35px;
   height: 3px;
@@ -120,9 +125,9 @@ ul li:hover {
   position: absolute;
   top: 50px;
   left: 0;
-  height: calc(100vh - 50px);
+  height: 20vh;
   width: 100%;
-  background-color: rgba(59, 59, 59, 0.95);
+  background-color: rgba(54, 146, 26, 0.95);
 }
 
 .mobile-menu li {
