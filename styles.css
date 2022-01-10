@@ -37,6 +37,7 @@ header a {
 header {
   padding: 0 20px;
   background-color: #e4e4e4;
+  /* background-color: rgba(216, 203, 19, 0.822); */
   height: 50px;
   display: flex;
   justify-content: space-between;
