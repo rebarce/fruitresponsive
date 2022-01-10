@@ -115,9 +115,10 @@ ul li:hover {
 
 .open .mobile-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: flex-start;
+  padding-top: 0.8rem;
 }
 
 .mobile-menu {
@@ -125,7 +126,7 @@ ul li:hover {
   position: absolute;
   top: 50px;
   left: 0;
-  height: 20vh;
+  height: 50px;
   width: 100%;
   background-color: rgba(54, 146, 26, 0.95);
 }
@@ -151,6 +152,10 @@ button {
 
   #hamburger-icon {
     display: block;
+  }
+
+  .mobile-menu {
+    flex-direction: row;
   }
 
   .hero {
